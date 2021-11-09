@@ -1,15 +1,12 @@
 import React from 'react'
 
 function NameList() {
-    const names = ['abdul','ansari','tanveer']
+    const names = ['abdul', 'ansari', 'tanveer', 'dxc','react']
+    const namesList = names.map(name => <h2>{name}</h2>)
     return (
-        <div>
-            <h2>{names[0]}</h2>
-            <h2>{names[1]}</h2>
-            <h2>{names[2]}</h2>
-
-        </div>
+        <div>{namesList}</div>
     )
+
 }
 
 export default NameList
