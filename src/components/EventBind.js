@@ -12,7 +12,7 @@ class EventBind extends Component {
 clickHandler(){
     console.log(this)
     this.setState({
-        message: 'good bye'
+        message: 'WELCOME'
     })
     
 }
