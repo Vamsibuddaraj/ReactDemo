@@ -17,8 +17,8 @@ constructor(props) {
 /**
  * i want to pass the reference of this method as a property to the child
  */
-    greetParent(){
-        alert(`hello ${this.state.parentName}`) 
+    greetParent(childName){
+        alert(`hello ${this.state.parentName} from  ${childName}`) 
     }
 
     render() {
