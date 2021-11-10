@@ -11,12 +11,15 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Class from './components/Class';
+import MyStyle from './components/MyStyle';
 
 
 function App() {
   return (
     <div className="App">
       <Class/>
+
+      <MyStyle/>
      
 
 
