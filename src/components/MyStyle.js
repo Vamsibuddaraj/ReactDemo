@@ -1,10 +1,12 @@
 import React from 'react'
 import './MyStyle.css'
 
-function MyStyle() {
+function MyStyle(props) {
+
+    let className=props.enabled?'primary':''
     return (
         <div>
-            <h2 className="primary">changing color to the text</h2>
+            <h2 className={className}>changing color to the text</h2>
         </div>
     )
 }

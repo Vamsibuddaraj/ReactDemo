@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Class/>
 
-      <MyStyle/>
+      <MyStyle enabled={true}/>
      
 
 
