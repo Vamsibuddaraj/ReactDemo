@@ -12,12 +12,14 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Class from './components/Class';
 import MyStyle from './components/MyStyle';
+import Inline from './components/inline';
 
 
 function App() {
   return (
     <div className="App">
       <Class/>
+      <Inline/>
 
       <MyStyle enabled={true}/>
      
