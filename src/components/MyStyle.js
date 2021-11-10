@@ -6,7 +6,7 @@ function MyStyle(props) {
     let className=props.enabled?'primary':''
     return (
         <div>
-            <h2 className={className}>changing color to the text</h2>
+            <h2 className={`${className} font-xl`}> welcome to style sheets</h2>
         </div>
     )
 }
