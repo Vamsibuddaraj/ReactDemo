@@ -3,6 +3,7 @@ import './App.css';
 
 import Forms from './components/Forms';
 import Fragments from './components/Fragments';
+import NewTable from './components/NewTable';
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Forms />
       <Fragments/>
+      <NewTable/>
     </div>
   );
 }
