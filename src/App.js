@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
-import PortalDemo from './components/portals/PortelDemo';
+
+import ClassCounter from './components/hooks/ClassCounter';
+import HookCounter from './components/hooks/HookCounter';
 
 
 
@@ -12,7 +14,7 @@ import PortalDemo from './components/portals/PortelDemo';
 function App() {
   return (
     <div className="App">
-      <PortalDemo/>
+      <HookCounter/>
     </div>
   );
 }
